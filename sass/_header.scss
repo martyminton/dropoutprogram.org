@@ -1,0 +1,55 @@
+.navbar-default {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e27001+1,6c1338+100 */
+    background: #e27001; /* Old browsers */
+    background: -moz-linear-gradient(
+        left,
+        #e27001 1%,
+        #6c1338 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        left,
+        #e27001 1%,
+        #6c1338 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        to right,
+        #e27001 1%,
+        #6c1338 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr="#e27001",
+            endColorstr="#6c1338",
+            GradientType=1
+        ); /* IE6-9 */
+    margin-bottom: 0;
+    border-bottom: 0px;
+
+    .navbar-brand img {
+        width: 128px;
+    }
+
+    .navbar-nav li:last-of-type a:before {
+        display: none;
+    }
+
+    .navbar-nav {
+        float: right;
+
+        > li > a {
+            color: #fff;
+            font-family: "Vitesse-Light";
+            padding: 15px 25px;
+            position: relative;
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                right: 0;
+                border-right: 1px solid rgba(255, 255, 255, 0.13);
+                height: 20px;
+                margin-top: -10px;
+            }
+        }
+    }
+}

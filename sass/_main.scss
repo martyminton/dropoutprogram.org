@@ -1,2 +1,34 @@
-footer {margin-top:3em;}
-.glyphicon-fire {color:$brand-primary;}
+footer {
+    margin-top: 3em;
+}
+.glyphicon-fire {
+    color: $brand-primary;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Colfax Web Bold";
+}
+
+.table {
+    display: table;
+    height: 100%;
+
+    .vertical {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+a.cta {
+    display: inline-block;
+    color: #6c1338;
+    padding: 11px 35px 11px 17px;
+    background: #fff url(../images/cta-arrow.png) center right 11px no-repeat;
+    text-align: left;
+    background-size: 13px;
+    font-size: 20px;
+    font-family: "Colfax Web Bold";
+}

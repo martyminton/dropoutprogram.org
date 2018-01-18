@@ -4,6 +4,8 @@
 // Bootstrap default overrides - settings and mixins
 @import "sparky-variables";
 
+@import "fonts";
+
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
 // Add any javascript plugin styles here
@@ -11,4 +13,7 @@
 
 // Your main core theme styles
 @import "main";
-
+@import "header";
+@import "jumbotron";
+@import "strategy";
+@import "contribute";

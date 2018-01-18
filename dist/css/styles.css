@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Vitesse-Bold";
+  src: url("../fonts/Vitesse-Bold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "colfax-bold";
+  src: url("../fonts/colfax-bold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal; }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5736,4 +5748,315 @@ footer {
 
 .glyphicon-fire {
   color: red; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Colfax Web Bold"; }
+
+.table {
+  display: table;
+  height: 100%; }
+  .table .vertical {
+    display: table-cell;
+    vertical-align: middle; }
+
+a.cta {
+  display: inline-block;
+  color: #6c1338;
+  padding: 11px 35px 11px 17px;
+  background: #fff url(../images/cta-arrow.png) center right 11px no-repeat;
+  text-align: left;
+  background-size: 13px;
+  font-size: 20px;
+  font-family: "Colfax Web Bold"; }
+
+.navbar-default {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e27001+1,6c1338+100 */
+  background: #e27001;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e27001 1%, #6c1338 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#e27001", endColorstr="#6c1338", GradientType=1 );
+  /* IE6-9 */
+  margin-bottom: 0;
+  border-bottom: 0px; }
+  .navbar-default .navbar-brand img {
+    width: 128px; }
+  .navbar-default .navbar-nav li:last-of-type a:before {
+    display: none; }
+  .navbar-default .navbar-nav {
+    float: right; }
+    .navbar-default .navbar-nav > li > a {
+      color: #fff;
+      font-family: "Vitesse-Light";
+      padding: 15px 25px;
+      position: relative; }
+      .navbar-default .navbar-nav > li > a:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        border-right: 1px solid rgba(255, 255, 255, 0.13);
+        height: 20px;
+        margin-top: -10px; }
+
+.jumbotron {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d0f1c+0,680030+50,32000e+100 */
+  background: #32000e;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #32000e 0%, #680030 50%, #32000e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#32000e", endColorstr="#32000e", GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 50px; }
+  @media screen and (min-width: 992px) {
+    .jumbotron {
+      min-height: 100vh;
+      display: table; } }
+  @media screen and (min-width: 992px) {
+    .jumbotron .container {
+      display: table-cell;
+      vertical-align: middle; } }
+  @media screen and (min-width: 992px) {
+    .jumbotron .container .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; } }
+  .jumbotron h1 {
+    color: #fff !important;
+    font-size: 200px !important;
+    letter-spacing: -15px;
+    line-height: 147px; }
+    @media screen and (min-width: 992px) {
+      .jumbotron h1 {
+        color: #fff !important;
+        font-size: 360px !important;
+        letter-spacing: -35px;
+        line-height: 260px; } }
+  .jumbotron h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 49px;
+    letter-spacing: -2px;
+    margin: 0;
+    line-height: 35px; }
+    @media screen and (min-width: 992px) {
+      .jumbotron h2 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 96px;
+        letter-spacing: -2px;
+        margin: 0;
+        line-height: 71px;
+        position: relative;
+        left: 14px; } }
+  .jumbotron h3 {
+    text-transform: uppercase;
+    color: #77162e;
+    font-size: 33px;
+    letter-spacing: -3px;
+    margin: 0;
+    line-height: 32px;
+    margin-top: 5px; }
+    .jumbotron h3.condensed {
+      font-size: 39px;
+      line-height: 34px;
+      margin-top: 0; }
+    @media screen and (min-width: 992px) {
+      .jumbotron h3 {
+        text-transform: uppercase;
+        color: #77162e;
+        font-size: 61px;
+        letter-spacing: -3px;
+        margin: 0;
+        line-height: 51px;
+        left: 13px;
+        position: relative;
+        margin-top: 5px; }
+        .jumbotron h3.condensed {
+          font-size: 72px;
+          line-height: 60px;
+          margin-top: 0; } }
+  .jumbotron h4 {
+    color: #e77201 !important;
+    /* text-transform: uppercase; */
+    color: #77162e;
+    font-size: 24px;
+    letter-spacing: -1px;
+    margin: 20px auto;
+    line-height: 42px; }
+    @media screen and (min-width: 992px) {
+      .jumbotron h4 {
+        color: #e77201 !important;
+        /* text-transform: uppercase; */
+        color: #77162e;
+        font-size: 24px;
+        letter-spacing: -1px;
+        margin: 20px 0 0 0;
+        line-height: 42px;
+        position: relative;
+        left: -90px; } }
+  .jumbotron .description {
+    text-align: left; }
+    @media screen and (min-width: 992px) {
+      .jumbotron .description {
+        padding-left: 70px; } }
+    .jumbotron .description h4 {
+      font-size: 60px !important;
+      left: 0;
+      line-height: 56px;
+      margin-bottom: 15px; }
+    .jumbotron .description p {
+      color: #fff; }
+    .jumbotron .description a.cta {
+      margin-top: 20px; }
+      @media screen and (max-width: 991px) {
+        .jumbotron .description a.cta {
+          width: 100%; } }
+  .jumbotron .highlight {
+    background: url("../images/bg_highlight.png") center center no-repeat;
+    padding-top: 100px; }
+    @media screen and (min-width: 992px) {
+      .jumbotron .highlight {
+        padding: 60px 0; } }
+
+#start-up-career-program {
+  background: #181818;
+  min-height: 100vh;
+  padding: 50px 0; }
+  #start-up-career-program h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding: 0px 0 100px 0;
+    letter-spacing: -3px;
+    background: url(../images/strategy-arrow.png) bottom 0px center no-repeat;
+    background-size: 50px;
+    margin-bottom: 30px; }
+    @media screen and (min-width: 992px) {
+      #start-up-career-program h1 {
+        color: #fff;
+        font-size: 100px;
+        text-align: center;
+        padding: 40px 0 80px 0;
+        letter-spacing: -3px;
+        background: url(../images/strategy-arrow.png) bottom 0px center no-repeat;
+        background-size: 50px;
+        margin-bottom: 50px; } }
+  @media screen and (min-width: 992px) {
+    #start-up-career-program .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center; } }
+  #start-up-career-program .left {
+    padding-right: 0; }
+    @media screen and (min-width: 992px) {
+      #start-up-career-program .left {
+        border-right: 1px solid rgba(255, 255, 255, 0.21);
+        width: 25%; } }
+  #start-up-career-program .right {
+    padding-left: 0; }
+    @media screen and (min-width: 992px) {
+      #start-up-career-program .right {
+        width: 25%; } }
+    @media screen and (min-width: 992px) {
+      #start-up-career-program .right .item:first-of-type {
+        margin-top: 180px; } }
+  #start-up-career-program .item {
+    margin: 50px 0; }
+  #start-up-career-program p {
+    color: #fff;
+    padding-left: 20px;
+    margin: 5px 0;
+    font-family: "Vitesse";
+    font-weight: 100;
+    font-size: 16px; }
+  #start-up-career-program h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Vitesse";
+    font-weight: 100; }
+    @media screen and (min-width: 992px) {
+      #start-up-career-program h2 {
+        text-align: center;
+        margin-bottom: 60px;
+        font-family: "Vitesse";
+        font-weight: 100; } }
+  #start-up-career-program h3 {
+    color: #ff9100;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+    padding-bottom: 21px;
+    padding-left: 20px; }
+    #start-up-career-program h3.no-border {
+      border-bottom: 0px; }
+    #start-up-career-program h3:after {
+      content: "";
+      clear: both;
+      display: table; }
+    #start-up-career-program h3 .number {
+      float: left;
+      display: block;
+      font-size: 81px;
+      line-height: 64px;
+      color: #96173c; }
+    #start-up-career-program h3 .item-name {
+      float: left;
+      margin-left: 11px;
+      font-size: 20px;
+      margin-top: 10px;
+      font-family: "Vitesse";
+      font-weight: 500; }
+
+#contribute {
+  background: #181818;
+  padding: 100px 0; }
+  #contribute .col {
+    padding: 0; }
+  #contribute .item {
+    background: white; }
+    #contribute .item.standard {
+      padding: 15px 50px;
+      border-bottom: 1px solid rgba(186, 45, 178, 0.360784);
+      border-left: 1px solid rgba(186, 45, 178, 0.360784);
+      border-right: 1px solid rgba(186, 45, 178, 0.360784); }
+    #contribute .item.quote {
+      background: #181818;
+      color: #fff;
+      padding: 70px 50px; }
+      #contribute .item.quote p {
+        font-size: 33px;
+        line-height: 36px;
+        color: #96173c; }
+    #contribute .item p,
+    #contribute .item li {
+      font-family: "Vitesse";
+      font-weight: 100; }
+    #contribute .item ul {
+      margin: 0 0 0 15px;
+      padding: 0; }
+    #contribute .item h4 {
+      margin: 15px 0;
+      font-weight: 100;
+      font-family: "Vitesse";
+      color: #ba2cb2; }
+    #contribute .item li {
+      margin-bottom: 10px; }
+    #contribute .item.section-name {
+      background: #ba2cb2;
+      color: #fff;
+      padding: 70px 50px; }
+      #contribute .item.section-name h1 {
+        font-size: 70px;
+        line-height: 70px; }
 /*# sourceMappingURL=styles.css.map */

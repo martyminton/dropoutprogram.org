@@ -1,0 +1,120 @@
+#start-up-career-program {
+    background: #181818;
+    min-height: 100vh;
+    padding: 50px 0;
+
+    h1 {
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+        padding: 0px 0 100px 0;
+        letter-spacing: -3px;
+        background: url(../images/strategy-arrow.png) bottom 0px center
+            no-repeat;
+        background-size: 50px;
+        margin-bottom: 30px;
+
+        @media screen and (min-width: 992px) {
+            color: #fff;
+            font-size: 100px;
+            text-align: center;
+            padding: 40px 0 80px 0;
+            letter-spacing: -3px;
+            background: url(../images/strategy-arrow.png) bottom 0px center
+                no-repeat;
+            background-size: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .row {
+        @media screen and (min-width: 992px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .left {
+        padding-right: 0;
+
+        @media screen and (min-width: 992px) {
+            border-right: 1px solid rgba(255, 255, 255, 0.21);
+            width: 25%;
+        }
+    }
+
+    .right {
+        padding-left: 0;
+
+        @media screen and (min-width: 992px) {
+            width: 25%;
+        }
+
+        .item:first-of-type {
+            @media screen and (min-width: 992px) {
+                margin-top: 180px;
+            }
+        }
+    }
+
+    .item {
+        margin: 50px 0;
+    }
+
+    p {
+        color: #fff;
+        padding-left: 20px;
+        margin: 5px 0;
+        font-family: "Vitesse";
+        font-weight: 100;
+        font-size: 16px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 0px;
+        font-family: "Vitesse";
+        font-weight: 100;
+
+        @media screen and (min-width: 992px) {
+            text-align: center;
+            margin-bottom: 60px;
+            font-family: "Vitesse";
+            font-weight: 100;
+        }
+    }
+
+    h3 {
+        color: #ff9100;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+        padding-bottom: 21px;
+        padding-left: 20px;
+
+        &.no-border {
+            border-bottom: 0px;
+        }
+
+        &:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .number {
+            float: left;
+            display: block;
+            font-size: 81px;
+            line-height: 64px;
+            color: #96173c;
+        }
+
+        .item-name {
+            float: left;
+            margin-left: 11px;
+            font-size: 20px;
+            margin-top: 10px;
+            font-family: "Vitesse";
+            font-weight: 500;
+        }
+    }
+}

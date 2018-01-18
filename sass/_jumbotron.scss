@@ -1,0 +1,176 @@
+.jumbotron {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d0f1c+0,680030+50,32000e+100 */
+    background: #32000e; /* Old browsers */
+    background: -moz-linear-gradient(
+        -45deg,
+        #32000e 0%,
+        #680030 50%,
+        #32000e 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+        -45deg,
+        #32000e 0%,
+        #680030 50%,
+        #32000e 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+        135deg,
+        #32000e 0%,
+        #680030 50%,
+        #32000e 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+            startColorstr="#32000e",
+            endColorstr="#32000e",
+            GradientType=1
+        ); /* IE6-9 fallback on horizontal gradient */
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 50px;
+
+    @media screen and (min-width: 992px) {
+        min-height: 100vh;
+        display: table;
+    }
+
+    .container {
+        @media screen and (min-width: 992px) {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .row {
+            @media screen and (min-width: 992px) {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+
+    h1 {
+        color: #fff !important;
+        font-size: 200px !important;
+        letter-spacing: -15px;
+        line-height: 147px;
+
+        @media screen and (min-width: 992px) {
+            color: #fff !important;
+            font-size: 360px !important;
+            letter-spacing: -35px;
+            line-height: 260px;
+        }
+    }
+
+    h2 {
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 49px;
+        letter-spacing: -2px;
+        margin: 0;
+        line-height: 35px;
+
+        @media screen and (min-width: 992px) {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 96px;
+            letter-spacing: -2px;
+            margin: 0;
+            line-height: 71px;
+            position: relative;
+            left: 14px;
+        }
+    }
+    h3 {
+        text-transform: uppercase;
+        color: #77162e;
+        font-size: 33px;
+        letter-spacing: -3px;
+        margin: 0;
+        line-height: 32px;
+        margin-top: 5px;
+
+        &.condensed {
+            font-size: 39px;
+            line-height: 34px;
+            margin-top: 0;
+        }
+
+        @media screen and (min-width: 992px) {
+            text-transform: uppercase;
+            color: #77162e;
+            font-size: 61px;
+            letter-spacing: -3px;
+            margin: 0;
+            line-height: 51px;
+            left: 13px;
+            position: relative;
+            margin-top: 5px;
+
+            &.condensed {
+                font-size: 72px;
+                line-height: 60px;
+                margin-top: 0;
+            }
+        }
+    }
+
+    h4 {
+        color: #e77201 !important;
+        /* text-transform: uppercase; */
+        color: #77162e;
+        font-size: 24px;
+        letter-spacing: -1px;
+        margin: 20px auto;
+        line-height: 42px;
+
+        @media screen and (min-width: 992px) {
+            color: #e77201 !important;
+            /* text-transform: uppercase; */
+            color: #77162e;
+            font-size: 24px;
+            letter-spacing: -1px;
+            margin: 20px 0 0 0;
+            line-height: 42px;
+            position: relative;
+            left: -90px;
+        }
+    }
+
+    .description {
+        text-align: left;
+
+        @media screen and (min-width: 992px) {
+            padding-left: 70px;
+        }
+
+        h4 {
+            font-size: 60px !important;
+            left: 0;
+            line-height: 56px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        a.cta {
+            margin-top: 20px;
+
+            @media screen and (max-width: 991px) {
+                width: 100%;
+            }
+        }
+    }
+
+    .highlight {
+        background: url("../images/bg_highlight.png") center center no-repeat;
+        padding-top: 100px;
+
+        @media screen and (min-width: 992px) {
+            padding: 60px 0;
+        }
+    }
+}
